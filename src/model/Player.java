@@ -1,16 +1,13 @@
 package Model;
 
-import java.util.ArrayList;
+import java.util.List;
 import model.cards.Card;
 import model.cards.Creature;
 
-/**
- *
- * @author Drew Harker
- */
+
 public class Player 
 {
-    private ArrayList<Card> hand;
+    private List<Card> hand;
     private Creature commander;
     private Creature ally1;
     private Creature ally2;

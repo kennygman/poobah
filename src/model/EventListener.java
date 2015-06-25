@@ -1,9 +1,6 @@
 package model;
 
-/**
- *
- * @author Drew Harker
- */
+
 public class EventListener 
 {
     //private type
