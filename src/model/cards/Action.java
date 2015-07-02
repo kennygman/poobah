@@ -1,10 +1,7 @@
 package model.cards;
 
-/**
- *
- * @author Drew
- */
-public abstract class Action implements Card
+
+public interface Action extends Card
 {
     
 }

@@ -1,16 +1,10 @@
 package model;
 
-/**
- *
- * @author Drew Harker
- */
-public class Event 
+public abstract class Event 
 {
-    //private type;
-    //private subType;
+    //private EventType[] types;
     
-    public String getType()
-    {
-        return "";
-    }
+    public abstract void checkPrerequesites();
+    
+    public abstract void execute();
 }

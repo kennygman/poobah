@@ -1,12 +1,9 @@
 package model.cards;
 
-/**
- *
- * @author Drew Harker
- */
-public abstract class Creature implements Card 
+
+public interface Creature extends Card 
 {
-    private int maxHealth;
+    /*private int maxHealth;
     private int currentHealth;
     private int maxEnergy;
     private int currentEnergy;
@@ -124,5 +121,5 @@ public abstract class Creature implements Card
 
     public void setSpecialDiscription(String specialDiscription) {
         this.specialDiscription = specialDiscription;
-    }
+    }*/
 }

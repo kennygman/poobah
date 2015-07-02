@@ -1,10 +1,7 @@
 package model.cards;
 
-/**
- *
- * @author Drew Harker
- */
-public abstract class Equipment implements Card 
+
+public interface Equipment extends Card 
 {
     
 }

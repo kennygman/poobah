@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package database;
 
-/**
- *
- * @author Drew
- */
-public class Inventory {
+public class Inventory { //A class for organizing user information about which and how many of each card he/she has.
     
 }

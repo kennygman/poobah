@@ -58,7 +58,7 @@ public final class Deck
         return requestedCard;
     }
     
-    public void shuffle() // TODO: maybe change to more frequently grab from the middle of the deck to better randomize the shuffling or something
+    public void shuffle()
     { 
         boolean addToTop = true;
         for(int i = 0; i < (cards.size() * 2); i++)

@@ -1,9 +1,5 @@
 package database;
 
-/**
- *
- * @author Drew Harker
- */
-public class Shop {
+public class Shop { //A class for managing how a user buys, sells, and, recieves new cards
     
 }

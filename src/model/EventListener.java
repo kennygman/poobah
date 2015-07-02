@@ -7,7 +7,7 @@ public class EventListener
     
     public boolean checkEvent(Event event)
     {
-        //createEvent and add to queue
+        //createEvent and add it to stack
         //can wrap the entering event in another event
         return false;
     }

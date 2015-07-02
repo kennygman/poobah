@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import model.Deck;
 import model.cards.Card;
-import model.cards.CardType;
 
 
 public class TestDeck {
@@ -79,13 +78,6 @@ public class TestDeck {
     //TODO: test other methods
     
     
-    public static void main(String[] args)
-    {
-        TestDeck test = new TestDeck();
-        test.setup();
-        test.testShuffle();
-    }
-    
     private class TestCard implements Card
     {
         private final String name;
@@ -106,11 +98,12 @@ public class TestDeck {
         {
             return "testId";
         }
-        
-        @Override
-        public CardType getType()
-        {
-            return null;
-        }
+    }
+    
+    public static void main(String[] args)
+    {
+        TestDeck test = new TestDeck();
+        test.setup();
+        test.testShuffle();
     }
 }

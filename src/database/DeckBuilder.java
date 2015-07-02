@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package database;
 
-/**
- *
- * @author Drew
- */
-public class DeckBuilder {
+public class DeckBuilder { //A class for helping the user to build a deck from his/her inventory
     
 }
