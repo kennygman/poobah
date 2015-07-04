@@ -1,8 +1,8 @@
-package model;
+package model.events;
 
 public abstract class Event 
 {
-    //private EventType[] types;
+    public abstract String[] /*or EventType[]?*/ getEventTypes();
     
     public abstract void checkPrerequesites();
     

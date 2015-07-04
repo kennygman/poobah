@@ -105,21 +105,41 @@ public interface Creature extends Card
 
     public void setCommandAllyCost(int commandAllyCost) {
         this.commandAllyCost = commandAllyCost;
-    }
-
-    public String getDiscription() {
-        return discription;
-    }
-
-    public void setDiscription(String discription) {
-        this.discription = discription;
-    }
-
-    public String getSpecialDiscription() {
-        return specialDiscription;
-    }
-
-    public void setSpecialDiscription(String specialDiscription) {
-        this.specialDiscription = specialDiscription;
     }*/
+
+    public String getSpecialEffectDiscription();
+    
+    public class BodyPart
+    {
+        public final BodyPartType type;
+        private Equipment equippedItem;
+
+        public BodyPart(BodyPartType type)
+        {
+            this.type = type;
+            equippedItem = null;
+        }
+
+        public void equipItem(Equipment item) throws Exception
+        {
+            if(canEquip())
+            {
+                equippedItem = item;
+            }
+            else 
+            {
+                throw new Exception(); //AlreadyEquippedException
+            }
+        }
+
+        public Equipment getEquippedItem()
+        {
+            return equippedItem;
+        }
+
+        public boolean canEquip()
+        {
+            return (equippedItem == null);
+        }
+    }
 }

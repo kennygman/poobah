@@ -1,7 +1,4 @@
 package model.cards;
 
 
-public interface Equipment extends Card 
-{
-    
-}
+public interface Equipment extends Card {}

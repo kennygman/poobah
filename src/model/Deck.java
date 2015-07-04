@@ -1,6 +1,6 @@
 package model;
 
-import exception.CardNotFoundException;
+import model.exception.CardNotFoundException;
 import java.util.LinkedList;
 import java.util.List;
 import model.cards.Card;

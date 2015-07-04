@@ -1,5 +1,7 @@
-package model;
+package model.events;
 
+import model.events.EventListener;
+import model.events.Event;
 import java.util.List;
 
 public class StaticEventHandler
@@ -16,7 +18,7 @@ public class StaticEventHandler
         event.execute();
     }
     
-    private void addEventListener(EventListener listener)
+    public static void addEventListener(EventListener listener)
     {
         listeners.add(listener);
     }

@@ -98,6 +98,16 @@ public class TestDeck {
         {
             return "testId";
         }
+
+        @Override
+        public int getMagnitudePoints() {
+            return 0;
+        }
+
+        @Override
+        public String getDescription() {
+            return "A card for tests";
+        }
     }
     
     public static void main(String[] args)

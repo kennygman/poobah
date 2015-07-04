@@ -1,8 +1,4 @@
 package model.cards;
 
 
-public interface Skill extends Card 
-{
-
-    
-}
+public interface Skill extends Card {}
